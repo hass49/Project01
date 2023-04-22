@@ -1,0 +1,178 @@
+/* import */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+body{
+    margin: 0%;
+    padding: 0%;
+}
+
+
+/* nacigation bar css */
+header{
+    position: relative;
+}
+.navbar{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    background-color: rgba(9, 9, 17, 0.8);
+    position: fixed;
+}
+
+.navbar .logo{
+    width: 120px;
+    height: auto;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+nav{
+    width: 100%;
+    height: 80px;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+nav ul{
+    display: flex;
+    padding: 0%;
+    color: rgb(255, 255, 255);
+    list-style: none;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+}
+
+nav ul li{
+    margin: 10px;
+    padding-right: 40px;
+}
+
+nav .signin{
+    color: rgb(255, 255, 255);
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    background-color: rgba(195, 42, 37, 1);
+    padding-right:30px ;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 100px;
+    margin-right: 10px;
+    border-radius: 35px; 
+}
+
+/* home page css */
+#landing{
+    width: 100%;
+    height: 100%;
+}
+#hero{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 110px;
+    text-transform: uppercase;
+    width: 100%;
+    height: auto;
+    background-image: url(young-fitness-man-studio.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+
+#hero .subject{
+    
+    padding-top: 200px;
+    padding-left: 60px;
+    padding-bottom: 200px;
+}
+
+#hero .regular-text{
+    color: aliceblue;
+    letter-spacing: 45px;
+}
+
+#hero .stroked-text{
+    letter-spacing: 8px;
+    color: rgba(9, 9, 17, 1);
+    text-shadow:
+    -3px -3px 0 rgba(195, 42, 37, 1),
+     3px -3px 0 rgba(195, 42, 37, 1),
+    -3px  3px 0 rgba(195, 42, 37, 1),
+     3px  3px 0 rgba(195, 42, 37, 1);
+}
+   
+#hero .content{
+    width: 50%;
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+    line-height: 50px;
+    padding-top: 50px;
+}
+
+#hero .content .boldtext{
+    font-size: 40px;
+    color: rgba(195, 42, 37, 1);
+}
+
+/* middle */
+.middle{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+    padding-top: 25%;
+    padding-bottom: 25%;
+
+}
+
+.middle .left-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40%;
+}
+
+.middle .left-content .text{
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    padding-top: 20px;
+}
+
+
+.middle .right-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40%;
+}
+
+.middle .right-content .text{
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    padding-top: 20px;
+}
+
+
+/* middle 2 */
+.middle{
+    width: 100%;
+    height: auto;
+    background-image: url();
+}
+
