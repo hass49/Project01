@@ -9,11 +9,17 @@ body{
     padding: 0%;
 }
 
+.container{
+    width: 100%;
+    height: 980px;
+}
+
 
 /* nacigation bar css */
 header{
     position: relative;
 }
+
 .navbar{
     width: 100%;
     height: 100px;
@@ -72,18 +78,16 @@ nav .signin{
     border-radius: 35px; 
 }
 
+
+
 /* home page css */
-#landing{
-    width: 100%;
-    height: 100%;
-}
 #hero{
     font-family: 'Open Sans', sans-serif;
     font-size: 110px;
     text-transform: uppercase;
     width: 100%;
-    height: auto;
-    background-image: url(young-fitness-man-studio.jpg);
+    height: 980px;
+    background-image: url(young-fitness-man-studio2.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -125,18 +129,24 @@ nav .signin{
     color: rgba(195, 42, 37, 1);
 }
 
+
+
 /* middle */
 .middle{
-    background-color: rgb(255, 255, 255);
-    display: flex;
-    justify-content: space-around;
-    align-items: flex-start;
-    flex-direction: row;
     width: 100%;
-    height: auto;
-    padding-top: 25%;
-    padding-bottom: 25%;
+    height: 980px;
+}
 
+.middle .framez{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.middle .center{
+    display: inline-block;
+    padding: 25% 0;
+    
 }
 
 .middle .left-content{
@@ -169,10 +179,343 @@ nav .signin{
 }
 
 
+
 /* middle 2 */
-.middle{
+.middle2{
     width: 100%;
+    height: 980px;
+    background-image: url(beautiful-young-female.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+}
+.middle2 .text{
+    width: 450px;
     height: auto;
-    background-image: url();
+    font-family: 'Poppins', sans-serif;
+    font-size: 35px;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    display: block;
+    padding-left: 30px;
+    font-weight: 600;
+    line-height: 180%;
+    
 }
 
+/* middle 3 */
+.middle3{
+    width: 100%;
+    height: 980px;
+}
+
+.middle3 h1{
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 48px;
+    color: rgba(9, 9, 17, 0.8);
+    padding-top: 50px;
+
+}
+
+.middle3 .frame1{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: center;
+}
+
+.reviewcard {
+    width: 500px;
+    height: 600px;
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.2);
+    border-radius: 30px;
+    
+}
+
+.middle3 .frame2{
+    padding: 30px;
+}
+
+.middle3 .frame2 .frame3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.middle3 .frame2 .frame3 .left{
+    font-size: 30px;
+    color: rgba(195, 42, 37, 1);
+}
+
+.middle3 .frame2 .frame3 .right{
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    opacity: 75%;
+}
+
+.reviewcard h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 36px;
+    text-transform: capitalize;
+    text-align: center;
+    color: rgba(195, 42, 37, 1);
+}
+
+.reviewcard p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.middle3 .button{
+    width: fit-content;
+    height: fit-content;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    border-radius: 50px;
+    border: 1px solid black;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+}
+
+.middle3 .button p{
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+/* bottom */
+.contentcenter{
+    width: 100%;
+    height: 980px;
+    display: inline-block;
+    margin-top: 150px;
+}
+.bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+.bottom .frame{
+    display: block;
+    padding-left: 80px;
+}
+
+.bottom .frame h1{
+    width: 680px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 36px;
+    text-transform: capitalize;
+}
+.bottom .frame p{
+    width: 630px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    padding-top: 50px;
+}
+.bottom .frame .button{
+    width: fit-content;
+    height: fit-content;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 30px;
+    color: rgba(195, 42, 37, 1);
+    border: 2px solid rgba(195, 42, 37, 1);
+    border-radius: 75px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.bottom .image{
+    width: 580px;
+    height: auto;
+    padding-right: 20px;
+}
+
+/* footer */
+.footer{
+    padding-bottom: 0%;
+    height: auto;
+    background-color: rgba(9, 9, 17, 1);
+    position: relative;
+}
+
+.footer .left .logo {
+    width: 170px;
+    height: auto;
+}
+
+.frame {
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    justify-content: space-between;
+}
+
+.footer .frame .left{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.footer .frame .left .text {
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    font-family:'Oxygen', sans-serif;
+    letter-spacing: 15.5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.footer .frame .left .text2 {
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    font-family:'Oxygen', sans-serif;
+    letter-spacing: 7px;
+    padding-top: 0px;
+    
+}
+
+.footer .frame .center {
+    width: 410px;
+    height: auto;
+}
+
+.footer .frame .center .title {
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    font-family:'Oxygen', sans-serif;
+    font-size: 15px;
+    letter-spacing: 2px;
+    padding-top: 0px;
+}
+
+.footer .frame .center .category {
+    text-transform: capitalize;
+    color: rgb(255, 255, 255);
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    letter-spacing: 2px;
+    padding-top: 25px;
+    opacity: 30%;
+}
+
+.footer .frame .center .text {
+    text-transform: capitalize;
+    color: rgb(255, 255, 255);
+    font-family: 'Inter', sans-serif;
+    font-size: 13px;
+    letter-spacing: 2px;
+    padding-top: 10px;
+    opacity: 50%;
+}
+
+.footer .frame .center2 .sub {
+    padding-bottom: 40px;
+    width: 250px;
+}
+
+.footer .frame .center2 .title {
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    font-family:'Oxygen', sans-serif;
+    font-size: 15px;
+    letter-spacing: 2px;
+    padding-bottom: 10px;
+
+}
+
+
+.footer .frame .center2 .phone{
+    display: flex;
+    
+}
+
+.footer .frame .center2 .phone .text {
+    text-transform: capitalize;
+    color: rgba(186, 76, 75, 1);
+    font-family: 'Inter', sans-serif;
+    font-size: 13px;
+    letter-spacing: 0;
+    padding-top: 10px;
+    padding-right: 30px;
+    opacity: 100%;
+}
+
+.footer .frame .center2 .gmail {
+    text-transform: capitalize;
+    color: rgba(186, 76, 75, 1);
+    font-family: 'Inter', sans-serif;
+    font-size: 13px;
+    letter-spacing: 0;
+    padding-top: 10px;
+    padding-right: 30px;
+    opacity: 100%;
+}
+
+.footer .frame .right {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+}
+
+.footer .frame .right a {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-transform: capitalize;
+    color: rgba(186, 76, 75, 1);
+    font-family: 'Inter', sans-serif;
+    font-size: 13px;
+    text-decoration: none;
+    letter-spacing: 0;
+    padding-top: 10px;
+    padding-right: 30px;
+    opacity: 100%;
+
+}
+
+.footer .frame .right a .name {
+    padding-left: 10px;
+}
+
+.footer .cr {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10px;
+    text-transform: capitalize;
+    color: rgb(255, 255, 255);
+    font-family: 'Inter', sans-serif;
+    font-size: 13px;
+    text-decoration: none;
+    letter-spacing: 3px;
+    opacity: 40%;
+}
+
+.footer .cr a {
+    padding-left: 10px;
+    font-weight: 800;
+    color: rgba(186, 76, 75, 1);
+    font-family: 'Inter', sans-serif;
+    font-size: 13px;
+    text-decoration: none;
+    letter-spacing: 3px;
+    opacity: 100%;
+
+}
